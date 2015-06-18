@@ -20,10 +20,10 @@
             </objects>
             <point key="canvasLocation" x="280" y="656"/>
         </scene>
-        <!--View Controller-->
+        <!--Home Screen View Controller-->
         <scene sceneID="eQq-V6-F6M">
             <objects>
-                <viewController id="Jzp-k7-ah8" customClass="ViewController" customModule="YahtzeeSwift" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="Jzp-k7-ah8" customClass="HomeScreenViewController" customModule="YahtzeeSwift" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="ioM-vk-xlJ"/>
                         <viewControllerLayoutGuide type="bottom" id="Wbe-4a-AL1"/>
@@ -31,7 +31,25 @@
                     <view key="view" contentMode="scaleToFill" id="0CJ-Gu-lok">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IPc-rh-qsq">
+                                <rect key="frame" x="249" y="275" width="103" height="49"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="49" id="63Z-ac-I2V"/>
+                                    <constraint firstAttribute="width" constant="103" id="AoK-Pj-HLW"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Verdana-Bold" family="Verdana" pointSize="25"/>
+                                <state key="normal" title="START">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="centerX" secondItem="IPc-rh-qsq" secondAttribute="centerX" constant="-0.5" id="cxo-bb-Y8t"/>
+                            <constraint firstAttribute="centerY" secondItem="IPc-rh-qsq" secondAttribute="centerY" constant="0.5" id="pCz-CB-dWn"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="e2q-bk-AxF"/>
                 </viewController>
