@@ -8,12 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		98275A841B271FB200B41FCD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98275A831B271FB200B41FCD /* AppDelegate.swift */; };
-		98275A861B271FB200B41FCD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98275A851B271FB200B41FCD /* ViewController.swift */; };
+		98275A861B271FB200B41FCD /* HomeScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98275A851B271FB200B41FCD /* HomeScreenViewController.swift */; };
 		98275A891B271FB200B41FCD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98275A871B271FB200B41FCD /* Main.storyboard */; };
 		98275A8B1B271FB200B41FCD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 98275A8A1B271FB200B41FCD /* Images.xcassets */; };
 		98275A8E1B271FB200B41FCD /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 98275A8C1B271FB200B41FCD /* LaunchScreen.xib */; };
 		98275A9A1B271FB200B41FCD /* YahtzeeSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98275A991B271FB200B41FCD /* YahtzeeSwiftTests.swift */; };
 		98275AA41B27226700B41FCD /* NavController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98275AA31B27226700B41FCD /* NavController.swift */; };
+		98275AA61B335FA600B41FCD /* GameBoardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98275AA51B335FA600B41FCD /* GameBoardViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,7 +31,7 @@
 		98275A7E1B271FB200B41FCD /* YahtzeeSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YahtzeeSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		98275A821B271FB200B41FCD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		98275A831B271FB200B41FCD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		98275A851B271FB200B41FCD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		98275A851B271FB200B41FCD /* HomeScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreenViewController.swift; sourceTree = "<group>"; };
 		98275A881B271FB200B41FCD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		98275A8A1B271FB200B41FCD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		98275A8D1B271FB200B41FCD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -38,6 +39,7 @@
 		98275A981B271FB200B41FCD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		98275A991B271FB200B41FCD /* YahtzeeSwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YahtzeeSwiftTests.swift; sourceTree = "<group>"; };
 		98275AA31B27226700B41FCD /* NavController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavController.swift; sourceTree = "<group>"; };
+		98275AA51B335FA600B41FCD /* GameBoardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameBoardViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,7 +82,8 @@
 			isa = PBXGroup;
 			children = (
 				98275A831B271FB200B41FCD /* AppDelegate.swift */,
-				98275A851B271FB200B41FCD /* ViewController.swift */,
+				98275A851B271FB200B41FCD /* HomeScreenViewController.swift */,
+				98275AA51B335FA600B41FCD /* GameBoardViewController.swift */,
 				98275AA31B27226700B41FCD /* NavController.swift */,
 				98275A871B271FB200B41FCD /* Main.storyboard */,
 				98275A8A1B271FB200B41FCD /* Images.xcassets */,
@@ -216,7 +219,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				98275A861B271FB200B41FCD /* ViewController.swift in Sources */,
+				98275A861B271FB200B41FCD /* HomeScreenViewController.swift in Sources */,
+				98275AA61B335FA600B41FCD /* GameBoardViewController.swift in Sources */,
 				98275A841B271FB200B41FCD /* AppDelegate.swift in Sources */,
 				98275AA41B27226700B41FCD /* NavController.swift in Sources */,
 			);
