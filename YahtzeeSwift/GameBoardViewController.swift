@@ -10,4 +10,14 @@ import UIKit
 
 class GameBoardViewController: UIViewController {
 
+    @IBOutlet weak var rollButton: UIButton!
+    
+    @IBAction func closeTapped(sender: AnyObject) {
+        
+        navigationController?.popViewControllerAnimated(true)
+    }
+    
+    @IBAction func rollTapped(sender: AnyObject) {
+        
+    }
 }
